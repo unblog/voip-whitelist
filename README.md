@@ -16,13 +16,19 @@ Enter a name, for example: UCMRC-nat-b, and add the UDP and TCP ports as shown.
 
 ![Edit Service](images/edit-service-ucmrc.png)
 
-Next, go to IPv4 Policy and right-click, then select from the context menu -> Insert Empty Policy -> Above (This rule must be before the GeoIP blocking rule). Edit the policy as shown in the image.
+Next, go to IPv4 Policy and right-click, then select from the context menu -> Insert Empty Policy -> Above (This rule must be before the GeoIP blocking rule).
+
+Edit the policy as shown in the image.
 
 ![IPv4 Policy](images/edit-policy.png)
 
 The new policy should look something like this in the policy overview.
 
 ![Edit Policy](images/policy-lan-wan.png)
+
+Finaly, create an identical rule in reverse order from WAN to LAN with the same services, this rule must also be placed before the GeoIP blocking rule.
+
+![Edit Policy](images/policy-wan-lan.png)
 
 ## Usage
 
