@@ -28,6 +28,22 @@ The new policy should look something like this in the policy overview.
 
 Use your Wave App and call a participant and try to invite participants to conferences, making sure that the audio sound transmission is successful for all participants and that everyone can understand each other.
 
+## Cause
+
+Peer Blocking:
+
+After your device obtains its public IP address via the STUN server, it attempts to send and receive data packets directly to and from the peer.
+
+Even if your device sends the first packet (hole punching), many firewalls with GeoIP filters block the peer's response at the WAN interface if the peer's IP address originates from a restricted country.
+
+In this case, the data packet (e.g., the audio signal during a phone call) never reaches your LAN device, even though the connection should technically be established.
+
+Stateful Inspection vs. GeoIP:
+
+Modern firewalls are stateful, meaning they automatically allow responses to outgoing requests.
+
+The problem: GeoIP filters often intervene before the connection status has been checked. If a GeoIP rule states "Block everything from country X", the packet from the remote end is often immediately discarded, even before the firewall recognizes that your LAN device actually requested this packet.
+
 ## Contributing
 
 Everyone is free to use and distribute this post without restriction; however, all use is at your own risk, and any liability is excluded.
