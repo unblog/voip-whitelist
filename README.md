@@ -4,7 +4,7 @@ This article describes the configuration of a firewall filter rule using GDMS, U
 
 ## Description
 
-The necessary services and ports are identified to provide a rule on the WAN interface, especially when GeoIP and similar country-managed geographical address ranges control and limit global reachability.
+The necessary services and ports are identified to provide a rule set using on security appliances, especially when GeoIP and similar country-managed geographical address ranges control and limit global reachability.
 
 ## Configuration
 
@@ -12,11 +12,11 @@ Instructions on how to configure and set up the filter rule.
 
 Here on a FortiGate, go to Policy & Objects -> Services -> Create New.
 
-Enter a name, for example: UCMRC-nat-b, and add the UDP and TCP ports as shown.
+Enter a name, for example: UCMRC-nat-b, and add the UDP and TCP ports as shown next.
 
 ![Edit Service](images/edit-service-ucmrc.png)
 
-Next, go to IPv4 Policy and right-click, then select from the context menu -> Insert Empty Policy -> Above (This rule must be before the GeoIP blocking rule).
+Next, go to IPv4 Policy and right-click, then select from the context menu -> Insert Empty Policy -> Above. This rule must be before the GeoIP blocking rule, you can also move up and down later.
 
 Edit the policy as shown in the image.
 
