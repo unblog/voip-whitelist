@@ -1,4 +1,4 @@
-# proposal of a filter rule using GDMS UCMRC
+# proposal of a filter rule using GS Wave GDMS UCMRC
 
 This article describes the configuration of a filter rule using GDMS, UCMRC and CloudUCM, in interactions with Wave communication, UCM-GDMS communication, phone and proxy server, UCM-endpoint communication.
 
