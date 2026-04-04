@@ -16,7 +16,7 @@ Enter a name, for example: UCMRC-nat-b, and add the UDP and TCP ports as shown n
 
 ![Edit Service](images/edit-service-ucmrc.png)
 
-Next, go to IPv4 Policy and right-click, then select from the context menu -> Insert Empty Policy -> Above. This rule must be before the GeoIP blocking rule, you can also move up and down later.
+Next, go to IPv4 Policy and right-click, then select from the context -> Insert Empty Policy -> Above. This policy must be before the GeoIP blocking policy, you can also move up and down later.
 
 Edit the policy as shown in the image.
 
@@ -26,13 +26,13 @@ The new policy should look something like this in the policy overview.
 
 ![Edit Policy](images/policy-lan-wan.png)
 
-Finaly, create an identical rule in reverse order from WAN to LAN with the same services, this rule must also be placed before the GeoIP blocking rule.
+Finaly, create an identical policy in reverse order from WAN to LAN with the same services, this rule must also be placed before the GeoIP blocking rule.
 
 ![Edit Policy](images/policy-wan-lan.png)
 
 ## Usage
 
-Use your Wave App and call a participant and try to invite participants to conferences, making sure that the audio sound transmission is successful for all participants and that everyone can understand each other.
+Use your GS Wave App and call a participant and try to invite participants to conferences, making sure that the audio sound transmission is successful for all participants and that everyone can understand each other.
 
 ## Addendum
 
