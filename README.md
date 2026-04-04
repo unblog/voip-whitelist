@@ -1,4 +1,4 @@
-# proposal of a firewall rule using GDMS & UCMRC & CloudUCM
+# proposal of a firewall rule using GDMS UCMRC CloudUCM
 
 This article describes the configuration of a firewall filter rule using GDMS and UCMRC, Wave communication, UCM-GDMS communication, phone and proxy server, UCM-endpoint communication.
 
