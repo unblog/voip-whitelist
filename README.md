@@ -34,6 +34,10 @@ Finaly, create an identical rule in reverse order from WAN to LAN with the same 
 
 Use your Wave App and call a participant and try to invite participants to conferences, making sure that the audio sound transmission is successful for all participants and that everyone can understand each other.
 
+## Addendum
+
+If they wish to further narrow it down, the source addresses from the voip-whitelist.txt can be used for the rule.
+
 ## Cause
 
 Peer Blocking:
