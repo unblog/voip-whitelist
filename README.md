@@ -10,7 +10,8 @@ The necessary services and ports are identified to provide a rule on the WAN int
 
 Instructions on how to configure and set up the filter rule.
 
-Here on a FortiGate, go to Policy & Objects -> Services -> Create New
+Here on a FortiGate, go to Policy & Objects -> Services -> Create New.
+
 Enter a name, for example: UCMRC-nat-b, and add the UDP and TCP ports as shown.
 
 ![Edit Service](images/edit-service-ucmrc.png)
