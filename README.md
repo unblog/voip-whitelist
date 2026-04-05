@@ -40,11 +40,13 @@ Use your GS Wave App and call a participant and try to invite participants to co
 
 ## Addendum
 
-If they wish to further narrow it down, the source addresses from the voip-whitelist.txt can be used for the rule.
+If they wish to further narrow it down, the addresses of origin from the voip-whitelist.txt can be used for the rule. This allows the addresses extracted from the ![list](https://www.gdms.cloud/server/info/index.html/iplist.json) to be used as an address object in the policy.
+
+To do this, go to Security Fabric -> Fabric Connector - Create New. A page with round icons will open, select IP Address, enter a name, and in the "URI of external resource" field, enter the RAW URL to voip-whitelist.txt. Then add the newly created connector as a Source/Destination in the policy.
 
 When using the Grandstream UCM6300 Ecosystem and its endpoints like Wave, log in to the UCM as a super administrator and go to the RemoteConnect option (you need a UCMRC service plan). Under the "My Plan" tab, you will find the STUN Address, containing the server domain, for example, xxx.gdms.cloud.
 
-This address corresponds to the list published by GS, including IP addresses, domains, protocols, and ports [here](https://www.gdms.cloud/server/info/index.html/#/).
+This address corresponds to the list published by GS, including IP addresses, domains, protocols, and ports ![here](https://www.gdms.cloud/server/info/index.html/#/).
 
 ## Cause
 
