@@ -60,4 +60,4 @@ Everyone is free to use and distribute this post without restriction; however, a
 
 ## License
 
-unblog/voip-whitelist is licensed under the GNU General Public-License ```GPL```.
+unblog/voip-whitelist is licensed under the MIT License ```MIT```.
