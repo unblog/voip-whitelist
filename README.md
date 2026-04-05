@@ -1,4 +1,4 @@
-# proposal of a filter rule using GS Wave GDMS UCMRC
+# proposal of a filter rule using GS Wave (GDMS UCMRC)
 
 This article describes how to set up filter rules with GDMS, UCMRC, and CloudUCM. These rules apply to security appliances such as firewalls that interact with STUN servers when using UC, such as GS Wave communication, UCM-GDMS communication, telephone and proxy servers, and UCM endpoint communication.
 
@@ -37,6 +37,10 @@ Use your GS Wave App and call a participant and try to invite participants to co
 ## Addendum
 
 If they wish to further narrow it down, the source addresses from the voip-whitelist.txt can be used for the rule.
+
+When using the Grandstream UCM6300 Ecosystem and its endpoints like Wave, log in to the UCM as a super administrator and go to the RemoteConnect option (you need a UCMRC service plan). Under the "My Plan" tab, you will find the STUN Address, containing the server domain, for example, xxx.gdms.cloud.
+
+This address corresponds to the information published by GS, including IP addresses, domains, protocols, and ports [here](https://www.gdms.cloud/server/info/index.html/#/).
 
 ## Cause
 
