@@ -58,6 +58,12 @@ The problem: GeoIP filters often intervene before the connection status has been
 
 Everyone is free to use and distribute this post without restriction; however, all use is at your own risk, and any liability is excluded.
 
+## Disclaimer
+
+The author assumes no liability for the accuracy, completeness, or timeliness of the information provided.
+
+Liability claims against the author for damages of a material or immaterial nature arising from access to or use or non-use of the published information, from misuse of the connection, or from technical malfunctions are excluded.
+
 ## License
 
 unblog/voip-whitelist is licensed under the MIT License ```MIT```.
