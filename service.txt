@@ -1,0 +1,9 @@
+config firewall service custom
+    edit "UCMRC-nat-b"
+        set category "VoIP, Messaging & Other Applications"
+        set comment "GDMS"
+        set color 17
+        set tcp-portrange 3478-3479 5000-65535
+        set udp-portrange 3478-3479 5000-65535
+    next
+end
