@@ -1,10 +1,10 @@
 # proposal of a filter rule using GS Wave GDMS UCMRC
 
-This article describes the configuration of a filter rule using GDMS, UCMRC and CloudUCM, in interactions with Wave communication, UCM-GDMS communication, phone and proxy server, UCM-endpoint communication.
+This article describes how to set up filter rules with GDMS, UCMRC, and CloudUCM. These rules apply to security appliances such as firewalls that interact with STUN servers when using UC, such as GS Wave communication, UCM-GDMS communication, telephone and proxy servers, and UCM endpoint communication.
 
 ## Description
 
-The necessary services and ports are identified to provide a rule set using on security appliances, especially when GeoIP and similar country-managed geographical address ranges control and limit global reachability.
+The necessary services and ports are identified to provide a rule set using on security appliances, especially when GeoIP and similar country-managed geographical address sources control and limit global reachability.
 
 ## Configuration
 
@@ -60,4 +60,4 @@ Everyone is free to use and distribute this post without restriction; however, a
 
 ## License
 
-unblog/voip-whitelist is licensed under the GNU General Public License v3.0.
+unblog/voip-whitelist is licensed under the GNU General Public-License ```GPL```.
