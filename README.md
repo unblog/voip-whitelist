@@ -40,7 +40,7 @@ If they wish to further narrow it down, the source addresses from the voip-white
 
 When using the Grandstream UCM6300 Ecosystem and its endpoints like Wave, log in to the UCM as a super administrator and go to the RemoteConnect option (you need a UCMRC service plan). Under the "My Plan" tab, you will find the STUN Address, containing the server domain, for example, xxx.gdms.cloud.
 
-This address corresponds to the information published by GS, including IP addresses, domains, protocols, and ports [here](https://www.gdms.cloud/server/info/index.html/#/).
+This address corresponds to the list published by GS, including IP addresses, domains, protocols, and ports [here](https://www.gdms.cloud/server/info/index.html/#/).
 
 ## Cause
 
