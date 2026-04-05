@@ -4,7 +4,7 @@ This article describes how to set up filter rules with GDMS, UCMRC, and CloudUCM
 
 ## Description
 
-The necessary services and ports are identified to provide a rule set using on security appliances, especially when GeoIP and similar country-managed geographical address sources control and limit global reachability.
+The necessary services and ports are identified to provide a rule set using on security appliances, when GeoIP or other country-managed geographical indications prevent global accessibility.
 
 ## Configuration
 
@@ -44,7 +44,7 @@ If they wish to further narrow it down, the addresses of origin from the voip-wh
 
 To do this, go to Security Fabric -> Fabric Connector - Create New. A page with round icons will open, select IP Address, enter a name, and in the "URI of external resource" field, enter the RAW URL to voip-whitelist.txt. Then add the newly created connector as a Source/Destination in the policy.
 
-When using the Grandstream UCM6300 Ecosystem and its endpoints like Wave, log in to the UCM as a super administrator and go to the RemoteConnect option (you need a UCMRC service plan). Under the "My Plan" tab, you will find the STUN Address, containing the server domain, for example, xxx.gdms.cloud.
+When using the Grandstream UCM6300 Ecosystem and its endpoints like Wave, log in to the UCM as a super administrator and go to the RemoteConnect option (you need a UCMRC service plan). Under the "My Plan" tab, you will find the STUN Address, containing the server domain, for example, nat-x.gdms.cloud.
 
 This address corresponds to the list published by GS, including IP addresses, domains, protocols, and ports [here](https://www.gdms.cloud/server/info/index.html/#/).
 
