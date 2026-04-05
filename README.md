@@ -16,6 +16,10 @@ Enter a name, for example: UCMRC-nat-b, and add the UDP and TCP ports as shown n
 
 ![Edit Service](images/edit-service-ucmrc.png)
 
+Alternatively, you can also insert the custom service ports out from the CLI, the commands can be found in the file service.txt. Verify the action with the following command:
+
+```show firewall service custom "UCMRC-nat-b"```
+
 Next, go to IPv4 Policy and right-click, then select from the context -> Insert Empty Policy -> Above. This policy must be before the GeoIP blocking policy, you can also move up and down later.
 
 Edit the policy as shown in the image.
