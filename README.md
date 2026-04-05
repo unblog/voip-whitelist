@@ -36,7 +36,7 @@ Finaly, create an identical policy in reverse order from WAN to LAN with the sam
 
 ## Usage
 
-Use your GS Wave App and call a participant and try to invite participants to conferences, making sure that the audio sound transmission is successful for all participants and that everyone can understand each other.
+Use your GS Wave App and call a participant and try to invite participants to conferences, making sure that the audio sound transmission is passed for/to all participants and that everyone can understand each other.
 
 ## Addendum
 
