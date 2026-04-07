@@ -1,6 +1,6 @@
 # proposal of a filter rule using GS Wave (GDMS UCMRC)
 
-This article describes how to set up filter rules with GDMS, UCMRC, and CloudUCM. These rules apply to security appliances such as firewalls that interact with STUN servers when using UC, such as GS Wave communication, UCM-GDMS communication, telephone and proxy servers, and UCM endpoint communication.
+This article describes how to set up filter rules using GDMS, UCMRC, and CloudUCM. These rules apply to security appliances such as firewalls, where devices and apps with UC capabilities need to interact with STUN servers, such as GS Wave communication, UCM-GDMS communication, telephone and proxy servers, and UCM endpoint communication.
 
 ## Description
 
@@ -40,11 +40,11 @@ Use your GS Wave App and call a participant and try to invite participants to co
 
 ## Addendum
 
-If they wish to further narrow it down, the origin from the voip-whitelist.txt can be take for the rule. This allows the IPs extracted from iplist (https://www.gdms.cloud/server/info/index.html/iplist.json) to be used as an address object in the policy.
+If they wish to consider narrow it down, the origin from the voip-whitelist.txt can be take for the rule. This allows the IPs extracted from iplist (https://www.gdms.cloud/server/info/index.html/iplist.json) to be used as an address object in a proxy policy.
 
-To do this, go to Security Fabric -> Fabric Connector - Create New. A page with round icons will open, select IP Address, enter a name, and in the "URI of external resource" field, enter the RAW URL to voip-whitelist.txt. Then add the newly created connector as a Source/Destination in the policy.
+To do this, go to Security Fabric -> Fabric Connector - Create New. A page with round icons will open, select IP Address, enter a name, and in the "URI of external resource" field, enter the RAW URL to voip-whitelist.txt. Then add the newly created connector as a Source/Destination in the proxy policy.
 
-When using the Grandstream UCM6300 Ecosystem and its endpoints like Wave, log in to the UCM as a super administrator and go to the RemoteConnect option (you need a UCMRC service plan). Under the "My Plan" tab, you will find the STUN Address, containing the server domain, for example, nat-x.gdms.cloud.
+When using the Grandstream UCM6300 Ecosystem and its endpoints like Wave, log in to the UCM as a super administrator and go to the RemoteConnect option (an UCMRC service plan is required). Under the "My Plan" tab, you will find the STUN Address, containing the server domain, for example, nat-b.gdms.cloud.
 
 This address corresponds to the list published by GS, including IP addresses, domains, protocols, and ports (https://www.gdms.cloud/server/info/index.html/#/).
 
