@@ -4,7 +4,7 @@ This article describes how to set up filter rules using GDMS, UCMRC, and CloudUC
 
 ## Description
 
-The necessary services and ports are identified to provide a rule set using on security appliances, when GeoIP or other country-managed geographical indications prevent global accessibility.
+The necessary services and ports are identified to provide a rule set using on security appliances, when GeoIP or other country-managed geographical indications restricted global accessibility.
 
 ## Configuration
 
